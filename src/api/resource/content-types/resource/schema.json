@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "resources",
+  "info": {
+    "singularName": "resource",
+    "pluralName": "resources",
+    "displayName": "Resources"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "resources_title": {
+      "type": "string"
+    },
+    "resources_desc": {
+      "type": "string"
+    }
+  }
+}

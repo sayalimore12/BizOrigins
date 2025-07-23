@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_why_choose_us_why_choose_uses",
+  "info": {
+    "displayName": "why-choose-us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

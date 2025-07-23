@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_team_member_about_uses",
+  "info": {
+    "displayName": "about-us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "contact-us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contact_title": {
+      "type": "string"
+    },
+    "contact_des": {
+      "type": "string"
+    },
+    "contact_info": {
+      "type": "blocks"
+    }
+  }
+}

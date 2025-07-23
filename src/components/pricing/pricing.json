@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "pricing"
+  },
+  "options": {},
+  "attributes": {
+    "pricing_title": {
+      "type": "string"
+    },
+    "pricing_des": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "pricing_offerings": {
+      "displayName": "pricing-offerings",
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-offerings.pricing-offerings"
+    }
+  }
+}

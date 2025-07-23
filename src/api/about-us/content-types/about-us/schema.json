@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_description": {
+      "type": "text"
+    },
+    "mission_title": {
+      "type": "string"
+    },
+    "mission_description": {
+      "type": "text"
+    },
+    "vision_title": {
+      "type": "string"
+    },
+    "vision_description": {
+      "type": "text"
+    },
+    "vision_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mission_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "what_makes_us_different": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.what-makes-us-different"
+    },
+    "our_impact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-impact.about-us"
+    }
+  }
+}

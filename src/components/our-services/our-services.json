@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_our_services_our_services",
+  "info": {
+    "displayName": "our-services"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "our_services_title": {
+      "type": "string"
+    },
+    "our_services_des": {
+      "type": "text"
+    }
+  }
+}

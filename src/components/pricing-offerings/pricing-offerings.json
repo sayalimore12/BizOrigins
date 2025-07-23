@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pricing_offerings_pricing_offerings",
+  "info": {
+    "displayName": "pricing-offerings"
+  },
+  "options": {},
+  "attributes": {
+    "pricing_offerings_list": {
+      "type": "string"
+    }
+  }
+}

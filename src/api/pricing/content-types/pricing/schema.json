@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "pricing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pricing": {
+      "displayName": "pricing",
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing"
+    }
+  }
+}

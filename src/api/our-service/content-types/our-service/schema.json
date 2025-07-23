@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services",
+  "info": {
+    "singularName": "our-service",
+    "pluralName": "our-services",
+    "displayName": "Our Services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "our_services": {
+      "displayName": "our-services",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-services.our-services"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_us_what_makes_us_differents",
+  "info": {
+    "displayName": "what-makes-us-different",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_heading": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "banner_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "choose_us_title": {
+      "type": "string"
+    },
+    "choose_us_des": {
+      "type": "text"
+    },
+    "ready_to_start": {
+      "type": "string"
+    },
+    "what_our_clients_say": {
+      "type": "string"
+    },
+    "testimonial_1": {
+      "type": "text"
+    },
+    "testimonial_2": {
+      "type": "text"
+    },
+    "testimonial_3": {
+      "type": "text"
+    },
+    "testimonial_1_jane": {
+      "type": "string"
+    },
+    "testimonial_2_carlos": {
+      "type": "string"
+    },
+    "testimonial_3_alice": {
+      "type": "string"
+    },
+    "confidence_backed_by_know_how": {
+      "type": "string"
+    },
+    "Confidence_backed_by_know_how_des": {
+      "type": "string"
+    },
+    "why_choose_us": {
+      "displayName": "why-choose-us",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.why-choose-us"
+    }
+  }
+}
