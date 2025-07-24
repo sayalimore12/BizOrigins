@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'bizorigins_db'),
       user: env('DATABASE_USERNAME', 'bizorigins_db_user'),
       password: env('DATABASE_PASSWORD', 'gVRbwttKAG5OWAc2JqycfaeoHCvQzI0g'),
-      ssl: env.bool('DATABASE_SSL', false),
+      ssl: { rejectUnauthorized: false},
     },
   },
 });
