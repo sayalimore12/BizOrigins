@@ -1,14 +1,30 @@
-const path = require('path');
-
 module.exports = ({ env }) => ({
   connection: {
-    client: 'sqlite',
+    client: 'postgres',
     connection: {
-      filename: path.join(__dirname, '..', '..', 'data.db'),
+      host: env('DATABASE_HOST', 'localhost'),
+      port: env.int('DATABASE_PORT', 5432),
+      database: env('DATABASE_NAME', 'bizorigins_db'),
+      user: env('DATABASE_USERNAME', 'bizorigins_db_user'),
+      password: env('DATABASE_PASSWORD', 'gVRbwttKAG5OWAc2JqycfaeoHCvQzI0g'),
+      ssl: env.bool('DATABASE_SSL', false),
     },
-    useNullAsDefault: true,
   },
 });
+
+
+
+// const path = require('path');
+
+// module.exports = ({ env }) => ({
+//   connection: {
+//     client: 'sqlite',
+//     connection: {
+//       filename: path.join(__dirname, '..', '..', 'data.db'),
+//     },
+//     useNullAsDefault: true,
+//   },
+// });
 
 
 
